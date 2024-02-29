@@ -1,0 +1,13 @@
+h1 {
+  color: orange;
+}
+
+p {
+  color: rgb(255, 255, 0);
+  background-color: black;
+}
+
+button {
+  color: white;
+  background-color: #5050ff;
+}

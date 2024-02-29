@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  text-decoration: double red underline;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h3 {
+  text-align: right;
+  text-decoration: wavy blue overline;
+}
+p {
+  text-align: center;
+  font-weight: 200;
+  line-height: 1.25;
+  font-size: 15px;
+  font-family: papyrus;
+}
+
+h2 {
+  font-weight: normal;
+  /* 400  */
+  text-decoration: dotted line-through;
+}
+
+a {
+  text-decoration: none;
+}

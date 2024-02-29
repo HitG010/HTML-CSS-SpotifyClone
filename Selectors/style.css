@@ -1,0 +1,139 @@
+* {
+  font-family: "Courier New";
+}
+
+h1,
+h3 {
+  color: #b92b27;
+}
+
+#login {
+  background-color: black;
+  color: white;
+}
+
+#login:hover {
+  background-color: white;
+  color: black;
+}
+#login:active {
+  background-color: #b92b27;
+  color: white;
+}
+
+#signup {
+  background-color: #b92b27;
+  color: white;
+}
+#signup:hover {
+  background-color: white;
+  color: #b92b27;
+}
+#signup:active {
+  background-color: black;
+  color: white;
+}
+
+.upvote {
+  background-color: green;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+}
+.upvote:hover {
+  background-color: black;
+  color: green;
+  font-weight: 600;
+  text-align: center;
+}
+.upvote:active {
+  color: black;
+  background-color: white;
+}
+/* Descendant Selector */
+.post a {
+  color: purple;
+  background-color: yellow;
+}
+
+nav ul lI {
+  color: #b92b27;
+}
+nav ul li a {
+  color: yellowgreen;
+}
+
+/* Ajdjacent Sibling Combinator */
+p + h3 {
+  text-decoration: underline;
+}
+
+.upvote + button {
+  background-color: cornflowerblue;
+  color: darkblue;
+  font-weight: 600;
+}
+.upvote + button:hover {
+  color: cornflowerblue;
+  background-color: darkblue;
+}
+.upvote + button:active {
+  background-color: black;
+  color: white;
+}
+
+div > input {
+  background-color: blue;
+  text-align: start;
+  color: white;
+}
+
+input[type="password"] {
+  background-color: lightblue;
+  color: darkblue;
+}
+
+input[type="password"]:autofill {
+  background-color: lightyellow;
+}
+
+p + h3:hover {
+  text-decoration: overline;
+}
+
+p[class="post"]:active {
+  color: blue;
+  font-size: large;
+  font-weight: bold;
+}
+
+input[id="No"]:checked + label {
+  color: #b92b27;
+  font-weight: bold;
+}
+input[id="Yes"]:checked + label {
+  color: green;
+  font-weight: bold;
+}
+
+div[class="post"]:nth-of-type(2n) {
+  background-color: lightblue;
+}
+
+h1::first-letter {
+  color: black;
+  font-weight: bolder;
+  font-size: 170%;
+}
+
+div > p[name="agreement"]::first-line {
+  color: #b92b27;
+  text-decoration: dashed underline;
+  background-color: lightcyan;
+  font-weight: 600;
+  font-size: 90%;
+}
+
+p::selection {
+  background-color: bisque;
+}

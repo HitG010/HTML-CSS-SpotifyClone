@@ -1,0 +1,35 @@
+h1 {
+  border: 3px solid black;
+  width: 33.33%;
+}
+#outer {
+  background-color: brown;
+  border: 5px solid black;
+  height: 20em;
+  width: 20em;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+#inner {
+  background-color: pink;
+  border: 5px solid black;
+  height: 40%;
+  width: 40%;
+  margin: 2em 2.7em;
+  font-size: 1.5em;
+  color: black;
+  padding: 1em;
+}
+
+button {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  border: 0.15em solid black;
+  margin: 1em 0.5em;
+  border-radius: 0.5em;
+  padding: 0.25em 1em;
+}

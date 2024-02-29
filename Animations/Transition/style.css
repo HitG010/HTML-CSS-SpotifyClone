@@ -1,0 +1,14 @@
+div {
+  height: 400px;
+  width: 400px;
+  background-color: green;
+  /* transition-duration: 1.5s;
+  transition-delay: 1s; */
+  transition: 1.5s ease-in-out 0.5s;
+}
+
+div:hover {
+  background-color: aqua;
+  border-radius: 50%;
+  margin: 200px;
+}

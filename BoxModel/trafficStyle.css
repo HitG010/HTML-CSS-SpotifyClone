@@ -1,0 +1,26 @@
+#Border {
+  height: 210px;
+  width: 75px;
+  border: 10px double black;
+  margin-left: 100px;
+  padding: 5px;
+  background-color: gray;
+}
+
+.light {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 5px 0 5px 5px;
+}
+
+#red {
+  background-color: red;
+}
+#yellow {
+  background-color: yellow;
+}
+#green {
+  background-color: green;
+}

@@ -1,0 +1,41 @@
+section {
+  margin-top: 100px;
+}
+
+div {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: #145da0;
+  border: 2px solid black;
+  margin: 10px auto;
+  color: white;
+  font-size: 120%;
+  transition: 1s;
+}
+
+div:nth-of-type(2n) {
+  background-color: #2e8bc0;
+}
+div:nth-of-type(3n) {
+  background-color: #0c2d48;
+}
+
+#one:hover {
+  transform: rotate(-180deg);
+}
+#two:hover {
+  transform: scale(1.5, 2);
+  /* transform: scale3d(1.5, 1.5, 1.5); */
+}
+#three:hover {
+  transform: translate(550px, -200px);
+}
+
+#four:active {
+  transform: skewX(90deg);
+}
+
+#five:hover {
+  transform: rotate(360deg) translate(-400px, -200px) scale(2);
+}

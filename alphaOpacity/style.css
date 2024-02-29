@@ -1,0 +1,10 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(59, 173, 28, 0.988);
+  margin: 20px auto;
+  box-shadow: 0.2em 0.2em 1em black;
+}
+#opacity {
+  opacity: 0.5;
+}
